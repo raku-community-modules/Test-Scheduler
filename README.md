@@ -1,13 +1,14 @@
-# Test::Scheduler
+[![Actions Status](https://github.com/lizmat/Test-Scheduler/actions/workflows/test.yml/badge.svg)](https://github.com/lizmat/Test-Scheduler/actions)
 
-An implementation of the Perl 6 `Scheduler` role that uses virtualized time.
-This allows for testing of code depending on constructs like `Promise.in(...)`
-and `Supply.interval(...)` more quickly and reliably than would be possible if
-real time were used.
+NAME
+====
 
-## Synopsis
+Test::Scheduler - A Raku scheduler with virtualized time
 
-```
+SYNOPSIS
+========
+
+```raku
 use Test;
 use Test::Scheduler;
 
@@ -64,3 +65,23 @@ sub timeout($source, $timeout) {
 
 done-testing;
 ```
+
+DESCRIPTION
+===========
+
+An implementation of the Raku `Scheduler` role that uses virtualized time. This allows for testing of code depending on constructs like `Promise.in(...)` and `Supply.interval(...)` more quickly and reliably than would be possible if real time were used.
+
+AUTHOR
+======
+
+Jonathan Worthington
+
+COPYRIGHT AND LICENSE
+=====================
+
+Copyright 2016 - 2024 Jonathan Worthington
+
+Copyright 2024 Raku Community
+
+This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
+

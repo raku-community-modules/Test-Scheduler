@@ -1,12 +1,22 @@
 {
-    "perl" : "6.c",
-    "name" : "Test::Scheduler",
-    "version" : "1.1",
-    "description" : "An implementation of the Perl 6 Scheduler role with virtualized time.",
-    "provides" : {
-        "Test::Scheduler" : "lib/Test/Scheduler.pm6"
-    },
-    "depends" : [ ],
-    "license" : "Artistic-2.0",
-    "source-url" : "git://github.com/jnthn/p6-test-scheduler.git"
+  "auth": "zef:raku-community-modules",
+  "build-depends": [
+  ],
+  "depends": [
+  ],
+  "description": "A Raku scheduler with virtualized time",
+  "license": "Artistic-2.0",
+  "name": "Test::Scheduler",
+  "perl": "6.d",
+  "provides": {
+    "Test::Scheduler": "lib/Test/Scheduler.rakumod"
+  },
+  "resources": [
+  ],
+  "source-url": "git://github.com/raku-community-modules/test-scheduler.git",
+  "tags": [
+  ],
+  "test-depends": [
+  ],
+  "version": "1.1"
 }
