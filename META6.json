@@ -13,10 +13,10 @@
   },
   "resources": [
   ],
-  "source-url": "git://github.com/raku-community-modules/test-scheduler.git",
+  "source-url": "https://github.com/raku-community-modules/Test-Scheduler.git",
   "tags": [
   ],
   "test-depends": [
   ],
-  "version": "1.1"
+  "version": "1.2"
 }

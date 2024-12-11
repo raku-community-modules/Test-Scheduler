@@ -1,5 +1,8 @@
 use Test;
+
 use Test::Scheduler;
+
+plan 83;
 
 {
     my $*SCHEDULER = Test::Scheduler.new;
@@ -289,4 +292,4 @@ use Test::Scheduler;
     is $c.receive, 'b', 'Scheduling order respects nested scheduling order (2)';
 }
 
-done-testing;
+# vim: expandtab shiftwidth=4

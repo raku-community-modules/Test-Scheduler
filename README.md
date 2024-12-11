@@ -1,4 +1,4 @@
-[![Actions Status](https://github.com/lizmat/Test-Scheduler/actions/workflows/test.yml/badge.svg)](https://github.com/lizmat/Test-Scheduler/actions)
+[![Actions Status](https://github.com/raku-community-modules/Test-Scheduler/actions/workflows/linux.yml/badge.svg)](https://github.com/raku-community-modules/Test-Scheduler/actions) [![Actions Status](https://github.com/raku-community-modules/Test-Scheduler/actions/workflows/macos.yml/badge.svg)](https://github.com/raku-community-modules/Test-Scheduler/actions) [![Actions Status](https://github.com/raku-community-modules/Test-Scheduler/actions/workflows/windows.yml/badge.svg)](https://github.com/raku-community-modules/Test-Scheduler/actions)
 
 NAME
 ====

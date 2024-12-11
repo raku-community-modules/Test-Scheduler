@@ -1,5 +1,8 @@
 use Test;
+
 use Test::Scheduler;
+
+plan 9;
 
 sub timeout($source, $timeout) {
     supply {
@@ -52,4 +55,4 @@ sub timeout($source, $timeout) {
     ok $died, 'And have timed out';
 }
 
-done-testing;
+# vim: expandtab shiftwidth=4

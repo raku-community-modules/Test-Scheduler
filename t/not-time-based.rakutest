@@ -1,5 +1,8 @@
 use Test;
+
 use Test::Scheduler;
+
+plan 3;
 
 {
     my $*SCHEDULER = Test::Scheduler.new();
@@ -19,4 +22,4 @@ use Test::Scheduler;
     is await($p1), 2 ** 20 + 6, 'Multiple concurrent promises are scheduled fine too';
 }
 
-done-testing;
+# vim: expandtab shiftwidth=4
